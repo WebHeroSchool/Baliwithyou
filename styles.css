@@ -76,7 +76,7 @@
 }
 
 .content {
-  height: 67vh;
+  height: 67.2vh;
   display: flex;
   flex: 1;
   justify-content: center;
@@ -84,7 +84,7 @@
 }
 
 .content__info {
-  max-width: 57%;
+  max-width: 28vw;
 }
 
 .content__pic {
@@ -98,29 +98,28 @@
 }
 
 .content__img {
-  max-width: 84%;
+  max-width: 24vw;
 }
  
 .content__slogan {
-  width: 97.4%;
+  width: 29vw;
   color: #F8EEE4;
-  font-size: 22px;
+  font-size: 1.13em;
   font-family: Museo Sans Cyrl;
-  padding-left: 18px;
-  margin: 47px 0 29px 0;
+  padding-left: 0.4em;
+  margin: 2.3em 0 1.5em 0;
 }
    
 .content__btn {
-  width: 52.7%;
-  height: 11.92%;
+  width: 14.7vw;
   font-family: Museo Sans Cyrl;
-  font-size: 1.16em;
+  font-size: 1.05em;
   color: #FFFFFF;
   background-color: #D4BEA3;
-  border-radius: 48px;
+  border-radius: 2em;
   border: none;
   cursor: pointer;
-  margin-left: 20px;
+  margin-left: 1em;
   padding: 3.54%;
 }
  
@@ -170,6 +169,54 @@
   padding-right: 0;
 }
 
+@media (min-width:1367px) and (max-width: 1660px) {
+  .wrapper {
+    max-width: 1660px;
+  }
+
+  .header__logowrapper {
+    padding-left: 5.4%;
+  }
+
+  .header__logo {
+    max-width: 15%;
+  }
+
+  .header__link {
+    font-size: .8em;
+    margin-right: 5.4em;
+  }
+
+  .header__link:last-child {
+    margin-right: 0;
+  }
+
+  .content {
+    height: 67.5vh;
+  }
+
+  .content__info {
+    max-width: 30vw;
+}
+
+   .content__slogan {
+    width: 33vw:;
+    font-size: 1em;
+    padding-left: 0.8em;
+    margin: 1.9em 0 1.4em 0;
+    letter-spacing: 0.005em;
+  }
+ 
+  .content__btn {
+    font-size: 1.1em;
+    margin-left: 0.9em;
+  }
+
+  .images__item {
+    padding-right: 3.8%;
+  }
+}
+
 @media (min-width:1025px) and (max-width: 1366px) {
   .wrapper {
     max-width: 1366px;
@@ -192,15 +239,24 @@
     margin-right: 0;
   }
 
-  .content__slogan {
-    font-size: 16px;
-    padding-left: 15px;
-    margin: 34px 0 23px 0;
+  .content {
+    height: 68vh;
+  }
+
+  .content__info {
+    max-width: 28vw;
+  }
+
+   .content__slogan {
+    font-size: 0.8em;
+    padding-left: 0.5em;
+    margin: 2em 0 1.4em 0;
+    letter-spacing: 0.004em;
   }
  
   .content__btn {
-    font-size: 0.85em;
-    margin-left: 13px;
+    font-size: 0.8em;
+    margin-left: 0.85em;
   }
 
   .images__item {
@@ -244,8 +300,8 @@
   }
 
   .content__info {
-    max-width: 74%;
-    padding-left: 9.4%;
+    max-width: 36vw;
+    padding-left: 5vw;
   }
 
   .content__pic {
@@ -265,6 +321,7 @@
   .content__btn {
     font-size: 0.8em;
     margin-left: 14px;
+    width: 19.7vw;
   }
 
   .images {
@@ -458,6 +515,7 @@
       
    .content__slogan {
      max-width: 300px;
+     width: 79vw;
      font-size: 18px;
      padding-left: 0;
      text-align: center;  
