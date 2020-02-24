@@ -1,7 +1,7 @@
 .wrapper {
   max-width: 1920px;
   min-width: 375px;
-  background: url(img/iswanto-arif-448003-unsplash.png) no-repeat;
+  background: url('./img/iswanto-arif-448003-unsplash.png') no-repeat;
   background-size: cover;
   background-position: top;
   height: 100vh;
@@ -31,9 +31,9 @@
 }
 
 .header__link {
-  font-family: Museo Sans Cyrl;
-  font-size: 1em;
-  margin-right: 5.8%;
+  font-family: 'Museo Sans Cyrl';
+  font-size: 1.1em;
+  margin-right: 4.87%;
   color: #F8EEE4;
   text-decoration: none;
 }
@@ -91,7 +91,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  background: url(img/Bali.png) no-repeat;
+  background: url('./img/Bali.png') no-repeat;
   background-size: 94%;
   height: 23vh;
   opacity: 0.8;
@@ -105,22 +105,22 @@
   width: 29vw;
   color: #F8EEE4;
   font-size: 1.13em;
-  font-family: Museo Sans Cyrl;
+  font-family: 'Museo Sans Cyrl';
   padding-left: 0.4em;
   margin: 2.3em 0 1.5em 0;
 }
    
 .content__btn {
   width: 14.7vw;
-  font-family: Museo Sans Cyrl;
-  font-size: 1.05em;
+  font-family: 'Museo Sans Cyrl';
+  font-size: 1.15em;
   color: #FFFFFF;
   background-color: #D4BEA3;
   border-radius: 2em;
   border: none;
   cursor: pointer;
-  margin-left: 1em;
-  padding: 3.54%;
+  margin-left: 0.8em;
+  padding: 3.45%;
 }
  
  .images {
@@ -184,7 +184,7 @@
 
   .header__link {
     font-size: .8em;
-    margin-right: 5.4em;
+    margin-right: 5.5%;
   }
 
   .header__link:last-child {
@@ -195,12 +195,16 @@
     height: 67.5vh;
   }
 
+  .content__pic {
+    height: 22vh;
+  }
+
   .content__info {
     max-width: 30vw;
-}
+  }
 
    .content__slogan {
-    width: 33vw:;
+    width: 33vw;
     font-size: 1em;
     padding-left: 0.8em;
     margin: 1.9em 0 1.4em 0;
@@ -240,11 +244,15 @@
   }
 
   .content {
-    height: 68vh;
+    height: 66.7vh;
   }
 
   .content__info {
     max-width: 28vw;
+  }
+
+  .content__pic {
+  height: 24vh;
   }
 
    .content__slogan {
@@ -288,10 +296,9 @@
   }
 
   .header__link {
-    font-family: Museo Sans Cyrl;
-    font-size: 16px;
-    line-height: 19px;
-    margin-right: 24px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 0.8em;
+    margin-right: 5.3%;
   }
 
   .content {
@@ -300,7 +307,7 @@
   }
 
   .content__info {
-    max-width: 36vw;
+    max-width: 37vw;
     padding-left: 5vw;
   }
 
@@ -314,18 +321,17 @@
   .content__slogan {
     width: 104%;
     font-size: 16.1px;
-    margin: 33px 0 24px 0;
+    margin: 35px 0 24px 0;
     padding-left: 8.7px;
   }
 
   .content__btn {
     font-size: 0.8em;
-    margin-left: 14px;
+    margin-left: 10px;
     width: 19.7vw;
   }
 
   .images {
-    flex: 1;
     height: 68vh;
   }
 
@@ -353,92 +359,6 @@
     max-width: 407%;  
   }
 }
-
-@media only screen and (min-width:768px) and (max-width:1024px) and (orientation:portrait) {
-  .wrapper {
-    max-width: 1024px;
-  }
-  
-  .header {
-    max-width: 92%;
-    height: 16vh;
- }
-
-  .header__logo {
-    max-width: 21%;
-  }
-
-  .header__logowrapper {
-    padding-left: 3%;
-  }
-
-  .header__link {
-    font-size: 14px;
-  }
-
-  .content {
-    height: 36vh;
-    justify-content: flex-start;
-  }
-
-  .content__info {
-    max-width: 74%;
-
-  }
-
-  .content__pic {
-    height: 14vh;
-  }
-
-  .content__slogan {
-    width: 101%;
-    font-size: 16px;
-    margin: 29px 0 24px 0;
-    padding-left: 7px;
-  }
-
-  .content__btn {
-    font-size: 1em;
-    margin-left: 11px;
-  }
-
-  .images {
-    flex: 1;
-    height: 36vh;
-  }
-
-  .images__wrapper {
-    width: 100%;
-  }
-
-  .images__first {
-    max-width: 44.08%;
-    padding-right: 4.69%  
-  }
-
-  .images__second {
-    max-width: 39.51%;  
-    padding-right: 4.69%;
-  }
-
-  .images__third {
-    max-width: 7.03%;  
-    overflow: hidden;
-  }
-
-  .img1 {
-    max-width: 100%;  
-  }
-
-  .img2 {
-    max-width: 100%;  
-  }
-
-  .img3 {
-    padding-right: 0;
-    max-width: 407%;  
-  }
-} 
 
 @media (max-width: 767px) {
   .wrapper {
@@ -516,12 +436,11 @@
    .content__slogan {
      max-width: 300px;
      width: 79vw;
-     font-size: 18px;
-     padding-left: 0;
+     font-size: 0.9em;
      text-align: center;  
-     padding-left: 25px;
-     margin: 55px 0 34px 0;
-     letter-spacing: 0.27px;
+     padding-left: 1.6em;
+     margin: 53px 0 33px 0;
+     letter-spacing: 0.2px;
      }
 
    .content__btn {
