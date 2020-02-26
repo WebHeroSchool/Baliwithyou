@@ -1,0 +1,511 @@
+.wrapper {
+  max-width: 1920px;
+  min-width: 375px;
+  background: url('./img/iswanto-arif-448003-unsplash.png') no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.header {
+  margin: 0 auto;
+  max-width: 89%;
+  height: 21.5vh;
+  display: flex;
+  align-items: center;
+}
+
+.header__logowrapper {
+  display: flex;
+  flex: 1;
+  padding-left: 5.5%;
+}
+
+.header__nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-right: 0.8%;
+  flex: 1;
+}
+
+.header__link {
+  font-family: 'Museo Sans Cyrl';
+  font-size: 1.1em;
+  margin-right: 4.87%;
+  color: #F8EEE4;
+  text-decoration: none;
+}
+
+.header__link:last-child {
+  margin-right: 0;
+}
+
+.header__burger {
+  display: none;
+  width: 25px;
+  height: 17px;
+  position: relative;
+}
+
+.burger__line {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 25px;
+  background: #808080;
+  left: 0;
+}
+ 
+.burger__line-first {
+  top: 0;
+}
+ 
+.burger__line-second {
+  top: 50%;
+  transform: translateY(-50%);
+}
+ 
+.burger__line-third {
+  bottom: 0;
+}
+ 
+.main-wrapper {
+  display: flex;
+}
+
+.content {
+  height: 67.2vh;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__info {
+  max-width: 28vw;
+}
+
+.content__pic {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background: url('./img/Bali.png') no-repeat;
+  background-size: 94%;
+  height: 23vh;
+  opacity: 0.8;
+}
+
+.content__img {
+  max-width: 24vw;
+}
+ 
+.content__slogan {
+  width: 29vw;
+  color: #F8EEE4;
+  font-size: 1.13em;
+  font-family: 'Museo Sans Cyrl';
+  padding-left: 0.4em;
+  margin: 2.3em 0 1.5em 0;
+}
+   
+.content__btn {
+  width: 14.7vw;
+  font-family: 'Museo Sans Cyrl';
+  font-size: 1.15em;
+  color: #FFFFFF;
+  background-color: #D4BEA3;
+  border-radius: 2em;
+  border: none;
+  cursor: pointer;
+  margin-left: 0.8em;
+  padding: 3.45%;
+}
+ 
+ .images {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+  height: 69vh;
+  width: 91%;
+}
+
+.images__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 91.4%;
+  margin: 0;
+  padding: 0;
+}
+
+.images__first {
+  max-width: 36.22%;
+  padding-right: 3.85%  
+}
+
+.images__second {
+  max-width: 32.41%;  
+  padding-right: 3.85%;
+}
+
+.images__third {
+  padding-right: 0;
+  max-width: 23.71%;  
+}
+
+.img1 {
+  max-width: 100%;  
+}
+
+.img2 {
+  max-width: 100%;  
+}
+
+.img3 {
+  max-width: 100%;  
+  padding-right: 0;
+}
+
+@media (min-width:1367px) and (max-width: 1660px) {
+  .wrapper {
+    max-width: 1660px;
+  }
+
+  .header__logowrapper {
+    padding-left: 5.4%;
+  }
+
+  .header__logo {
+    max-width: 19%;
+  }
+
+  .header__link {
+    font-size: 0.97em;
+    margin-right: 5.5%;
+  }
+
+  .header__link:last-child {
+    margin-right: 0;
+  }
+
+  .content {
+    height: 67.5vh;
+  }
+
+  .content__pic {
+    height: 22vh;
+  }
+
+  .content__info {
+    max-width: 30vw;
+  }
+
+   .content__slogan {
+    width: 33vw;
+    font-size: 1em;
+    padding-left: 0.8em;
+    margin: 1.9em 0 1.4em 0;
+    letter-spacing: 0.005em;
+  }
+ 
+  .content__btn {
+    font-size: 1.1em;
+    margin-left: 0.9em;
+  }
+
+  .images__item {
+    padding-right: 3.8%;
+  }
+}
+
+@media (min-width:1025px) and (max-width: 1366px) {
+  .wrapper {
+    max-width: 1366px;
+  }
+
+  .header__logowrapper {
+    padding-left: 5.3%;
+  }
+
+  .header__logo {
+    max-width: 19%;
+  }
+
+  .header__link {
+    font-size: 16px;
+    margin-right: 26px;
+  }
+
+  .header__link:last-child {
+    margin-right: 0;
+  }
+
+  .content {
+    height: 66.7vh;
+  }
+
+  .content__info {
+    max-width: 28vw;
+  }
+
+  .content__pic {
+  height: 24vh;
+  }
+
+   .content__slogan {
+    font-size: 0.8em;
+    padding-left: 0.5em;
+    margin: 2em 0 1.4em 0;
+    letter-spacing: 0.004em;
+  }
+ 
+  .content__btn {
+    font-size: 0.8em;
+    margin-left: 0.85em;
+  }
+
+  .images__item {
+    padding-right: 3.85%;
+  }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+  .wrapper {
+    max-width: 1024px;
+  }
+  
+  .header {
+    margin: 0 auto;
+    max-width: 92%;
+    height: 22vh;
+ }
+
+  .header__logo {
+    max-width: 22%;
+  }
+
+  .header__logowrapper {
+    padding-left: 0;
+  }
+
+  .header__nav {
+    margin-right: .65%;
+  }
+
+  .header__link {
+    font-family: 'Museo Sans Cyrl';
+    font-size: 0.8em;
+    margin-right: 5.3%;
+  }
+
+  .content {
+    height: 67vh;
+    justify-content: flex-start;
+  }
+
+  .content__info {
+    max-width: 37vw;
+    padding-left: 5vw;
+  }
+
+  .content__pic {
+    height: 22.9vh;
+  }
+  .content__img {
+    max-width: 85%;
+  }
+
+  .content__slogan {
+    width: 104%;
+    font-size: 16.1px;
+    margin: 35px 0 24px 0;
+    padding-left: 8.7px;
+  }
+
+  .content__btn {
+    font-size: 0.8em;
+    margin-left: 10px;
+    width: 19.7vw;
+  }
+
+  .images {
+    height: 68vh;
+  }
+
+  .images__wrapper {
+    width: 100%;
+  }
+
+  .images__first {
+    max-width: 44.08%;
+    padding-right: 4.69%  
+  }
+
+  .images__second {
+    max-width: 39.51%;  
+    padding-right: 4.69%;
+  }
+
+  .images__third {
+    max-width: 7.03%;  
+    overflow: hidden;
+  }
+
+  .img3 {
+    padding-right: 0;
+    max-width: 407%;  
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    max-width: 767px;
+    background-position: 54%;
+    height: 118vh;
+    margin: 0 auto;
+  }
+
+  .header {
+   height: 18.4vh;
+  }
+
+ .header__wrapper {
+    width: 80%;
+    height: 140px;
+  }
+
+ .header__logowrapper {
+    padding-left: 6%;
+  }
+
+  .header__logo {
+    width: 38%;
+    padding-left: 0;
+  }
+
+  .header__logo-link {
+    width: 100%;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .header__burger {
+    display: block;
+    position: relative;
+    width: 36px;
+    height: 17px;
+    margin-top: 3%;
+  }
+
+  .burger__line {
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background: #FCF5ED;  
+    cursor: context-menu;
+  }
+  
+  .content {
+    height: 72vh;
+    flex: none;
+    margin: auto;
+  }
+    
+  .content__info {
+    max-width: 767px;
+    }
+
+  .content__pic {
+    background-size: 88%;
+    height: 194px;
+    padding-left: 60px;
+    background-position: left;
+    background-position: 22%;
+   }
+    
+  .content__img {
+    max-width: 289px;
+    }
+      
+   .content__slogan {
+     max-width: 300px;
+     width: 79vw;
+     font-size: 0.9em;
+     text-align: center;  
+     padding-left: 1.6em;
+     margin: 53px 0 33px 0;
+     letter-spacing: 0.2px;
+     }
+
+   .content__btn {
+     font-size: 16px;
+     margin-left: 65px;     
+     width: 209px;
+     height: 44px;
+     }
+     
+   .images {
+     display: none;
+     }
+}
+
+@media only screen and (max-width: 767px) and (orientation:landscape) {
+ .header__logowrapper {
+    padding-left: 0%;
+  }
+
+  .header__logo {
+    width: 18%;
+    padding-left: 0;
+  }
+
+  .content {
+    height: 72vh;
+    flex: none;
+    margin: auto;
+  }
+    
+  .header__burger {
+    margin-top: 0;
+  }
+
+  .content__pic {
+    background-size: 78%;
+    height: 173px;
+    padding-left: 0;
+    background-position: center;
+    background-position: 22%;
+    justify-content: center;
+   }
+    
+  .content__img {
+    max-width: 270px;
+    }
+      
+   .content__slogan {
+     max-width: 336px;
+     font-size: 14px;
+     padding-left: 0;
+     text-align: center;  
+     padding-left: 0;
+     margin: 10px 0 10px 0;
+     letter-spacing: 0.27px;
+     }
+
+   .content__btn {
+     font-size: 14px;
+     margin-left: 50px;     
+     width: 209px;
+     height: 44px;
+     }
+     
+   .images {
+     display: none;
+     }
+}
