@@ -1,41 +1,33 @@
 <!Doctype html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="initial-scale=1.0, width=device-width">
-      <link rel="stylesheet" href="./fonts.css">
-      <link rel="stylesheet" href="./styles.css">
-      <title>Bali with you</title>
-   </head>
-   <body>
-      <header class="header">
-         <div class="header__logo">
-            <a href="index.hml"><img class="header__logo-main" src="img/logo.png" alt="logo"></a>
-         </div>
-         <nav class="header__menu">
-            <div class="header__nav">
-               <a href="start.html" class="header__link">Start</a>
-               <a href="services.html" class="header__link">Services</a>
-               <a href="about.html" class="header__link">About</a>
-               <a href="blog.html" class="header__link">Blog</a>
-               <a href="contact_us.html" class="header__link">Contact us</a>
-            </div>
-         </nav>
-      </header>
-      <main class="content">
-         <div class="content__left">
-            <h1 class="content__title">Bali</h1>
-            <h2 class="content__subtitle">Indonesia</h2>
-            <p class="content__text">Best Bali travel guide with great tips. Book hotels and villas, explore the best spas, events, Bali temples, scuba centers, and activities.</p>
-            <button class="content__btn">Book travel>
-            <a href="book_travel.html" class="content__link"></a>
-            </button>
-         </div>
-         <div class="content__right">
-            <img class="content__img-one" src="img/aron-visuals-1075065-unsplash.png" alt="Pura">
-            <img class="content__img-two" src="img/123.png" alt="Gate">
-            <img class="content__img-three" src="img/sebastian-pena-lambarri-1220288-unsplash.png" alt="Fields">
-         </div>
-      </main>
-   </body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link rel="stylesheet" href="./fonts.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Bali with you</title>
+  </head>
+  <body class="wrapper">
+    <header class="header">
+      <div class="header__logowrapper"><img class="header__logo" src="img/logo.png" alt="logo"></div>
+      <nav class="header__nav"><a href="start.html" class="header__link">Start</a><a href="services.html" class="header__link">Services</a><a href="about.html" class="header__link">About</a><a href="blog.html" class="header__link">Blog</a><a href="contact_us.html" class="header__link">Contact us</a></nav>
+      <div class="header__burger burger"><span class="burger__line burger__line-first"></span><span class="burger__line burger__line-second"></span><span class="burger__line burger__line-third"></span></div>
+    </header>
+    <main class="main-wrapper">
+      <section class="content">
+        <div class="content__info">
+          <div class="content__pic"><img class="content__img" src="img/Indonesia.png" alt="Indonesia"></div>
+          <p class="content__slogan">Best Bali travel guide with great tips. Book hotels and villas, explore the best spas, events, Bali temples, scuba centers, and activities.</p>
+          <button class="content__btn">Book travel</button>
+        </div>
+      </section>
+      <section class="images">
+        <div class="images__wrapper">
+          <div class="images__first"><img src="img/1.png" alt="Pura" class="img1 images__item"></div>
+          <div class="images__second"><img src="img/2.png" alt="Gate" class="img2 images__item"></div>
+          <div class="images__third"><img src="img/3.png" alt="Fields" class="img3 images__item"></div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
